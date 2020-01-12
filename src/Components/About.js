@@ -12,7 +12,7 @@ const About = () => {
               data-wow-duration="0.8s"
               data-wow-delay="0.4s"
             >
-              <img src={svg} alt="" className="img-fluid" />
+              <img src={svg} loading="lazy" alt="" className="img-fluid" />
             </div>
           </div>
           <div className="col-sm-12 col-md-6">

@@ -18,7 +18,7 @@ import Pricing from "../Components/Pricing"
 
 const IndexPage = () => (
   <div className="dark-vertion black-bg">
-      <Seo/>
+    <Seo title="John Doe" />
     <Header />
     <Showcase />
     <About />

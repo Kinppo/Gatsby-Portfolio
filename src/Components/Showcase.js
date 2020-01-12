@@ -94,7 +94,12 @@ const Showcase = () => {
                 data-wow-delay="0.6s"
               >
                 <div>
-                  <img src={profile} alt="" className="img-fluid" />
+                  <img
+                    src={profile}
+                    alt=""
+                    loading="lazy"
+                    className="img-fluid"
+                  />
                 </div>
               </div>
             </div>
