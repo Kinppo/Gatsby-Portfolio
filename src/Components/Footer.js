@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="mh-footer" id="mh-contact">
       <div className="map-image image-bg">
         <div className="container">
-          <div className="row section-separator">
+          <div className="row section-separator last-section-separator">
             <Contact />
             <div className="col-sm-12 mh-copyright">
               <div className="row">

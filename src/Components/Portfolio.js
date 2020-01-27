@@ -70,10 +70,7 @@ export const Portfolio = () => {
                     </figcaption>
                   </figure>
                 </div>
-                <div
-                  className="grid-item col-md-4 col-sm-6 col-xs-12"
-                  style={{ transform: "translateY(-47px)" }}
-                >
+                <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                   <figure>
                     <img src={pic4} alt="img04" />
                     <figcaption className="fig-caption">
@@ -90,10 +87,7 @@ export const Portfolio = () => {
                     </figcaption>
                   </figure>
                 </div>
-                <div
-                  className="grid-item col-md-4 col-sm-6 col-xs-12"
-                  style={{ transform: "translateY(-155px)" }}
-                >
+                <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                   <figure>
                     <img src={pic5} alt="img04" />
                     <figcaption className="fig-caption">
@@ -127,10 +121,7 @@ export const Portfolio = () => {
                     </figcaption>
                   </figure>
                 </div>
-                <div
-                  className="grid-item col-md-4 col-sm-6 col-xs-12"
-                  style={{ transform: "translateY(-62px)" }}
-                >
+                <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                   <figure>
                     <img src={pic7} alt="img04" />
                     <figcaption className="fig-caption">
@@ -147,10 +138,7 @@ export const Portfolio = () => {
                     </figcaption>
                   </figure>
                 </div>
-                <div
-                  style={{ transform: "translateY(-160px)" }}
-                  className="grid-item col-md-4 col-sm-6 col-xs-12"
-                >
+                <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                   <figure>
                     <img src={pic8} alt="img04" />
                     <figcaption className="fig-caption">
