@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Web Consultant`,
     description: `Web Consulting Portfolio`,
-    author: `Mouaad Boukiaou`,
+    author: `MBK`,
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
