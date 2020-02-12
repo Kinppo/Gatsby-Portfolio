@@ -2,7 +2,7 @@
 A simple Portfolio template for developer/designers built with React and Gatsby. Use it to showcase your work, testimonials and other information to clients.
 
 ## Preview
-<img src="https://i.ibb.co/hx0jPBH/Web-consultant-portfolio.png" alt="Web-consultant-portfolio" border="0">
+<img src="https://i.ibb.co/VwKbGx7/Web-consultant-portfolio.png" alt="Web-consultant-portfolio" border="0">
 
 ## How to use
 1. Clone/Download the repo.
