@@ -18,7 +18,7 @@ const Footer = () => {
 
                 <div className="col-sm-6">
                   <div className="text-right ">
-                    <p>Developed By Mouaad Boukiaou</p>
+                    <p>Developed By MBK</p>
                   </div>
                 </div>
               </div>
