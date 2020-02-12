@@ -3,7 +3,7 @@
   "private": true,
   "description": "Web Consulting Portfolio",
   "version": "0.1.0",
-  "author": "Mouaad Boukiaou <boukiaou.mouaad@gmail.com>",
+  "author": "MBK",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "gatsby": "^2.18.4",
