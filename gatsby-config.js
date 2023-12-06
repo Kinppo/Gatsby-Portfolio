@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Web Consultant`,
-    description: `Web Consulting Portfolio`,
+    title: `Portfolio`,
+    description: `Mohammed Amaou Portfolio`,
     author: `MBK`,
   },
   plugins: [
@@ -26,7 +26,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Web Consulting Portfolio`,
+        name: `Mohammed Amaou Portfolio`,
         short_name: `Portfolio`,
         start_url: `/`,
         background_color: `#663399`,
