@@ -1,4 +1,4 @@
-## Portfolio for a Web Consultant
+## Portfolio
 A simple Portfolio template for developer/designers built with React and Gatsby. Use it to showcase your work, testimonials and other information to clients.
 
 ## Preview
