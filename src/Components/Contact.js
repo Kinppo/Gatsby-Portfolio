@@ -1,36 +1,36 @@
-import React, { useState } from "react"
-import Popup from "./Popup"
+import React, { useState } from "react";
+import Popup from "./Popup";
 
-const encode = data => {
+const encode = (data) => {
   return Object.keys(data)
-    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&")
-}
+    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+};
 const Contact = () => {
   const [contact, setState] = useState({
     firstname: "",
     lastname: "",
     email: "",
     message: "",
-  })
-  const [popupState, setPopup] = useState("walo")
-  const handleSubmit = e => {
+  });
+  const [popupState, setPopup] = useState("walo");
+  const handleSubmit = (e) => {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...contact }),
     })
       .then(() => {
-        setPopup("sucess")
+        setPopup("sucess");
       })
       .catch(() => {
-        setPopup("error")
-      })
+        setPopup("error");
+      });
 
-    e.preventDefault()
-  }
+    e.preventDefault();
+  };
   return (
-    <div>
+    <div id="contact">
       <div
         className="col-sm-12 section-title wow fadeInUp"
         data-wow-duration="0.8s"
@@ -51,10 +51,7 @@ const Contact = () => {
               </div>
               <div className="each-info">
                 <h4>Address</h4>
-                <address>
-                  5th Avenue, 34th floor <br />
-                  New york
-                </address>
+                <address>Agadir City, Morocco</address>
               </div>
             </div>
           </div>
@@ -69,9 +66,8 @@ const Contact = () => {
               </div>
               <div className="each-info">
                 <h4>Email</h4>
-                <a href="mailto:yourmail@email.com">yourmail@email.com</a>
+                <a href="mailto:mdamaou@email.com">mdamaou@email.com</a>
                 <br />
-                <a href="mailto:yourmail@email.com">yourmail@email.com</a>
               </div>
             </div>
           </div>
@@ -86,9 +82,7 @@ const Contact = () => {
               </div>
               <div className="each-info">
                 <h4>Phone</h4>
-                <a href="callto:(880)-8976-987">(880)-8976-987</a>
-                <br />
-                <a href="callto:(880)-8976-987">(880)-8976-987</a>
+                <a href="callto:(880)-8976-987">(+212) 678593627</a>
               </div>
             </div>
           </div>
@@ -119,11 +113,11 @@ const Contact = () => {
                 placeholder="First Name"
                 required
                 value={contact.firstname}
-                onChange={e => {
-                  const val = e.target.value
-                  setState(prevState => {
-                    return { ...prevState, firstname: val }
-                  })
+                onChange={(e) => {
+                  const val = e.target.value;
+                  setState((prevState) => {
+                    return { ...prevState, firstname: val };
+                  });
                 }}
               />
             </div>
@@ -136,11 +130,11 @@ const Contact = () => {
                 placeholder="Last Name"
                 required
                 value={contact.lastname}
-                onChange={e => {
-                  const val = e.target.value
-                  setState(prevState => {
-                    return { ...prevState, lastname: val }
-                  })
+                onChange={(e) => {
+                  const val = e.target.value;
+                  setState((prevState) => {
+                    return { ...prevState, lastname: val };
+                  });
                 }}
               />
             </div>
@@ -153,11 +147,11 @@ const Contact = () => {
                 placeholder="Your Email"
                 required
                 value={contact.email}
-                onChange={e => {
-                  const val = e.target.value
-                  setState(prevState => {
-                    return { ...prevState, email: val }
-                  })
+                onChange={(e) => {
+                  const val = e.target.value;
+                  setState((prevState) => {
+                    return { ...prevState, email: val };
+                  });
                 }}
               />
             </div>
@@ -170,11 +164,11 @@ const Contact = () => {
                 placeholder="Your Message"
                 required
                 value={contact.message}
-                onChange={e => {
-                  const val = e.target.value
-                  setState(prevState => {
-                    return { ...prevState, message: val }
-                  })
+                onChange={(e) => {
+                  const val = e.target.value;
+                  setState((prevState) => {
+                    return { ...prevState, message: val };
+                  });
                 }}
               ></textarea>
             </div>
@@ -193,7 +187,7 @@ const Contact = () => {
       </div>
       <Popup type={popupState} setPopup={setPopup} />
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

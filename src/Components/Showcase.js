@@ -1,5 +1,5 @@
-import React from "react"
-import profile from "../assets/images/hero.png"
+import React from "react";
+import profile from "../assets/images/hero.png";
 
 const Showcase = () => {
   return (
@@ -16,20 +16,19 @@ const Showcase = () => {
                 >
                   <span>Hello I'm</span>
                 </div>
-
                 <h2
                   className="wow fadeInUp"
                   data-wow-duration="0.8s"
                   data-wow-delay="0.2s"
                 >
-                  Jhon Doe
+                  Mohammed Amaou
                 </h2>
                 <h4
                   className="wow fadeInUp"
                   data-wow-duration="0.8s"
                   data-wow-delay="0.3s"
                 >
-                  Web Consultant
+                  Graphic Designer
                 </h4>
 
                 <ul>
@@ -39,7 +38,7 @@ const Showcase = () => {
                     data-wow-delay="0.4s"
                   >
                     <i className="fa fa-envelope"></i>
-                    <a href="mailto:">email@gmail.com</a>
+                    <a href="mailto:">mdamaou@gmail.com</a>
                   </li>
                   <li
                     className="wow fadeInUp"
@@ -47,7 +46,7 @@ const Showcase = () => {
                     data-wow-delay="0.5s"
                   >
                     <i className="fa fa-phone"></i>
-                    <a href="callto:">+1 000 000 0000</a>
+                    <a href="callto:">+212 678593627</a>
                   </li>
                   <li
                     className="wow fadeInUp"
@@ -55,7 +54,7 @@ const Showcase = () => {
                     data-wow-delay="0.6s"
                   >
                     <i className="fa fa-map-marker"></i>
-                    <address>37, manhattan, New York, United State</address>
+                    <address>Agadir City, Morocco</address>
                   </li>
                 </ul>
 
@@ -65,22 +64,38 @@ const Showcase = () => {
                   data-wow-delay="0.7s"
                 >
                   <li>
-                    <a href=" ">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://web.facebook.com/simo.amaou.1"
+                    >
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href=" ">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://twitter.com"
+                    >
                       <i className="fa fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href=" ">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://github.com/mohamaou"
+                    >
                       <i className="fa fa-github"></i>
                     </a>
                   </li>
                   <li>
-                    <a href=" ">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://dribbble.com/"
+                    >
                       <i className="fa fa-dribbble"></i>
                     </a>
                   </li>
@@ -107,7 +122,7 @@ const Showcase = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Showcase
+export default Showcase;

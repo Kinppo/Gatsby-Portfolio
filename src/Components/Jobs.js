@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Jobs = () => {
   return (
@@ -19,11 +19,11 @@ const Jobs = () => {
               data-wow-delay="0.3s"
             >
               <i className="fa fa-bullseye purple-color"></i>
-              <h3>Web Consulting</h3>
+              <h3>Logo Design</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                aliquam erat volutpat.
+                Creating unique and memorable logos that not only expertly
+                represent a brand's identity but also leave an indelible mark in
+                the minds of audiences, forging lasting brand connections.
               </p>
             </div>
           </div>
@@ -34,11 +34,11 @@ const Jobs = () => {
               data-wow-delay="0.5s"
             >
               <i className="fa fa-code iron-color"></i>
-              <h3>Web Development</h3>
+              <h3>Branding and Identity</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                aliquam erat volutpat.
+                Developing a consistent visual identity, including color
+                schemes, typography, and design elements, to reinforce brand
+                recognition.
               </p>
             </div>
           </div>
@@ -49,18 +49,18 @@ const Jobs = () => {
               data-wow-delay="0.7s"
             >
               <i className="fa fa-object-ungroup sky-color"></i>
-              <h3>App Development</h3>
+              <h3>Web Design</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                aliquam erat volutpat.
+                Crafting visually appealing websites, demonstrating expertise in
+                meticulous layout design, and aesthetic enhancements for an
+                engaging online user experience.
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Jobs
+export default Jobs;

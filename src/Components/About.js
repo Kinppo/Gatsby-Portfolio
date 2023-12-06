@@ -1,5 +1,5 @@
-import React from "react"
-import svg from "../assets/images/ab-img.png"
+import React from "react";
+import svg from "../assets/images/ab-img.png";
 
 const About = () => {
   return (
@@ -29,9 +29,11 @@ const About = () => {
                 data-wow-duration="0.8s"
                 data-wow-delay="0.2s"
               >
-                Hello, I’m a John, web consultant based on New York. I have rich
-                experience that is that extends over 8 years in the web
-                consulting filed. Also I am good at
+                Passionate graphic designer with a keen eye for detail and a
+                flair for creative expression. Proficient in translating
+                concepts into visually stunning designs that captivate
+                audiences. Committed to delivering innovative solutions that
+                leave a lasting impression and elevate brands to new heights
               </p>
               <div
                 className="mh-about-tag wow fadeInUp"
@@ -40,30 +42,30 @@ const About = () => {
               >
                 <ul>
                   <li>
-                    <span>php</span>
+                    <span>design</span>
                   </li>
                   <li>
-                    <span>html</span>
+                    <span>photoshop</span>
                   </li>
                   <li>
                     <span>css</span>
                   </li>
                   <li>
-                    <span>php</span>
+                    <span>illustrator</span>
                   </li>
                   <li>
-                    <span>wordpress</span>
+                    <span>after effects</span>
                   </li>
                   <li>
-                    <span>React</span>
+                    <span>Canva</span>
                   </li>
                   <li>
-                    <span>Javascript</span>
+                    <span>Figma</span>
                   </li>
                 </ul>
               </div>
               <a
-                href=" "
+                href="#"
                 className="btn btn-fill wow fadeInUp"
                 data-wow-duration="0.8s"
                 data-wow-delay="0.4s"
@@ -75,7 +77,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;

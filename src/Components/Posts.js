@@ -1,7 +1,7 @@
-import React from "react"
-import pic1 from "../assets/images/b-3.png"
-import pic2 from "../assets/images/b-2.png"
-import pic3 from "../assets/images/b-1.png"
+import React from "react";
+import pic1 from "../assets/images/p1.webp";
+import pic2 from "../assets/images/p2.webp";
+import pic3 from "../assets/images/p3.webp";
 
 const Posts = () => {
   return (
@@ -24,27 +24,35 @@ const Posts = () => {
               <img src={pic1} alt="" className="img-fluid" />
               <div className="blog-inner">
                 <h2>
-                  <a href="blog-single.html">
-                    A life without the daily traffic jams
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.creativebloq.com/photoshop/free-photoshop-brushes-11121140"
+                  >
+                    68 of the best free Photoshop brushes
                   </a>
                 </h2>
                 <div className="mh-blog-post-info">
                   <ul>
                     <li>
                       <strong>Post On</strong>
-                      <a href=" ">24.11.19</a>
-                    </li>
-                    <li>
-                      <strong>By</strong>
-                      <a href=" ">Jhon</a>
+                      <a target="_blank" rel="noopener noreferrer" href=" ">
+                        12.05.2023
+                      </a>
                     </li>
                   </ul>
                 </div>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout
+                  Get creative and productive with these brilliant new free
+                  Photoshop brushes.
                 </p>
-                <a href="blog-single.html">Read More</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.creativebloq.com/photoshop/free-photoshop-brushes-11121140"
+                >
+                  Read More
+                </a>
               </div>
             </div>
           </div>
@@ -57,27 +65,35 @@ const Posts = () => {
               <img src={pic2} alt="" className="img-fluid" />
               <div className="blog-inner">
                 <h2>
-                  <a href="blog-single.html">
-                    Proportion are what’s really needed
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.creativebloq.com/buying-guides/best-ai-art-generators"
+                  >
+                    The best AI art generators in December 2023
                   </a>
                 </h2>
                 <div className="mh-blog-post-info">
                   <ul>
                     <li>
                       <strong>Post On</strong>
-                      <a href=" ">24.11.19</a>
-                    </li>
-                    <li>
-                      <strong>By</strong>
-                      <a href=" ">Jon</a>
+                      <a target="_blank" rel="noopener noreferrer" href=" ">
+                        12.02.2023
+                      </a>
                     </li>
                   </ul>
                 </div>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout
+                  Turn text to images with the best AI art generators for
+                  illustration, design and more.
                 </p>
-                <a href="blog-single.html">Read More</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.creativebloq.com/buying-guides/best-ai-art-generators"
+                >
+                  Read More
+                </a>
               </div>
             </div>
           </div>
@@ -90,34 +106,42 @@ const Posts = () => {
               <img src={pic3} alt="" className="img-fluid" />
               <div className="blog-inner">
                 <h2>
-                  <a href="blog-single.html">
-                    Mounts of paper work to remember the way
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.creativebloq.com/buying-guides/best-monitor-for-graphic-artists"
+                  >
+                    Best monitor for graphic artists in 2023
                   </a>
                 </h2>
                 <div className="mh-blog-post-info">
                   <ul>
                     <li>
                       <strong>Post On</strong>
-                      <a href=" ">24.11.19</a>
-                    </li>
-                    <li>
-                      <strong>By</strong>
-                      <a href=" ">Jhon</a>
+                      <a target="_blank" rel="noopener noreferrer" href=" ">
+                        11.20.23
+                      </a>
                     </li>
                   </ul>
                 </div>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout
+                  These are the best monitors for graphic artists that you can
+                  buy from across the price spectrum.
                 </p>
-                <a href="blog-single.html">Read More</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.creativebloq.com/buying-guides/best-monitor-for-graphic-artists"
+                >
+                  Read More
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Posts
+export default Posts;

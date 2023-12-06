@@ -1,6 +1,6 @@
-import React from "react"
-import { CircularProgressbar, buildStyles } from "react-circular-progressbar"
-import "react-circular-progressbar/dist/styles.css"
+import React from "react";
+import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
 
 const Skills = () => {
   return (
@@ -18,8 +18,8 @@ const Skills = () => {
                   <div className="candidatos">
                     <div className="parcial">
                       <div className="info">
-                        <div className="nome">Javascript</div>
-                        <div className="percentagem-num">86%</div>
+                        <div className="nome">Photoshop</div>
+                        <div className="percentagem-num">90%</div>
                       </div>
                       <div className="progressBar">
                         <div
@@ -32,8 +32,8 @@ const Skills = () => {
                   <div className="candidatos">
                     <div className="parcial">
                       <div className="info">
-                        <div className="nome">Java</div>
-                        <div className="percentagem-num">46%</div>
+                        <div className="nome">Illustrator</div>
+                        <div className="percentagem-num">85%</div>
                       </div>
                       <div className="progressBar">
                         <div
@@ -46,8 +46,8 @@ const Skills = () => {
                   <div className="candidatos">
                     <div className="parcial">
                       <div className="info">
-                        <div className="nome">Python</div>
-                        <div className="percentagem-num">38%</div>
+                        <div className="nome">Affter Effects</div>
+                        <div className="percentagem-num">80%</div>
                       </div>
                       <div className="progressBar">
                         <div
@@ -60,8 +60,8 @@ const Skills = () => {
                   <div className="candidatos">
                     <div className="parcial">
                       <div className="info">
-                        <div className="nome">PHP</div>
-                        <div className="percentagem-num">17%</div>
+                        <div className="nome">Figma</div>
+                        <div className="percentagem-num">75%</div>
                       </div>
                       <div className="progressBar">
                         <div
@@ -74,8 +74,8 @@ const Skills = () => {
                   <div className="candidatos">
                     <div className="parcial">
                       <div className="info">
-                        <div className="nome">CSS</div>
-                        <div className="percentagem-num">17%</div>
+                        <div className="nome">Canva</div>
+                        <div className="percentagem-num">65%</div>
                       </div>
                       <div className="progressBar">
                         <div
@@ -95,8 +95,8 @@ const Skills = () => {
               <ul className="mh-professional-progress">
                 <li>
                   <CircularProgressbar
-                    value="66"
-                    text="66%"
+                    value="70"
+                    text="70%"
                     strokeWidth="5"
                     styles={buildStyles({
                       pathColor: "#0BCEAF",
@@ -107,8 +107,8 @@ const Skills = () => {
                 </li>
                 <li>
                   <CircularProgressbar
-                    value="55"
-                    text="55%"
+                    value="66"
+                    text="66%"
                     strokeWidth="5"
                     styles={buildStyles({
                       pathColor: "#0BCEAF",
@@ -119,8 +119,8 @@ const Skills = () => {
                 </li>
                 <li>
                   <CircularProgressbar
-                    value="86"
-                    text="86%"
+                    value="85"
+                    text="85%"
                     strokeWidth="5"
                     styles={buildStyles({
                       pathColor: "#0BCEAF",
@@ -131,8 +131,8 @@ const Skills = () => {
                 </li>
                 <li>
                   <CircularProgressbar
-                    value="60"
-                    text="60%"
+                    value="90"
+                    text="90%"
                     strokeWidth="5"
                     styles={buildStyles({
                       pathColor: "#0BCEAF",
@@ -147,7 +147,7 @@ const Skills = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;

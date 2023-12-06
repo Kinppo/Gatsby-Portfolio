@@ -5,12 +5,11 @@ module.exports = {
     author: `MBK`,
   },
   plugins: [
-    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
-    `gatsby-plugin-netlify-cache`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-scroll-reveal`,
       options: {
@@ -44,4 +43,4 @@ module.exports = {
       },
     },
   ],
-}
+};

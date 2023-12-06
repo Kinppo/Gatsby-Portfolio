@@ -1,5 +1,5 @@
-import React from "react"
-import Contact from "./Contact"
+import React from "react";
+import Contact from "./Contact";
 
 const Footer = () => {
   return (
@@ -12,13 +12,13 @@ const Footer = () => {
               <div className="row">
                 <div className="col-sm-6">
                   <div className="text-left ">
-                    <p>All right reserved &copy; 2020</p>
+                    <p>All right reserved &copy; 2024</p>
                   </div>
                 </div>
 
                 <div className="col-sm-6">
                   <div className="text-right ">
-                    <p>Developed By MBK</p>
+                    <p>Developed By Kinppo</p>
                   </div>
                 </div>
               </div>
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

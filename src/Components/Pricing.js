@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Pricing = () => {
   return (
@@ -24,12 +24,12 @@ const Pricing = () => {
                 <p>I am available for full time</p>
                 <h5>$1500</h5>
                 <ul>
-                  <li>Web Development</li>
-                  <li>Advetising</li>
-                  <li>Game Development</li>
-                  <li>Web CConsulting</li>
+                  <li>Web Design</li>
+                  <li>Print Design</li>
+                  <li>Logo Design</li>
+                  <li>Motion Graphics</li>
                 </ul>
-                <a href=" " className="btn btn-fill">
+                <a href="#mh-contact" className="btn btn-fill">
                   Hire Me
                 </a>
               </div>
@@ -43,14 +43,14 @@ const Pricing = () => {
                 <i className="fa fa-file"></i>
                 <h4>Fixed Price Project</h4>
                 <p>I am available for fixed roles</p>
-                <h5>$500</h5>
+                <h5>$250</h5>
                 <ul>
-                  <li>Web Development</li>
-                  <li>Advetising</li>
-                  <li>Game Development</li>
-                  <li>Web CConsulting</li>
+                  <li>Motion Graphics</li>
+                  <li>Web Design</li>
+                  <li>Print Design</li>
+                  <li>Logo Design</li>
                 </ul>
-                <a href=" " className="btn btn-fill">
+                <a href="#mh-contact" className="btn btn-fill">
                   Hire Me
                 </a>
               </div>
@@ -66,12 +66,12 @@ const Pricing = () => {
                 <p>I am available for Hourley projets</p>
                 <h5>$50</h5>
                 <ul>
-                  <li>Web Development</li>
-                  <li>Advetising</li>
-                  <li>Game Development</li>
-                  <li>Web CConsulting</li>
+                  <li>Web Design</li>
+                  <li>Print Design</li>
+                  <li>Logo Design</li>
+                  <li>Motion Graphics</li>
                 </ul>
-                <a href=" " className="btn btn-fill">
+                <a href="#mh-contact" className="btn btn-fill">
                   Hire Me
                 </a>
               </div>
@@ -80,7 +80,7 @@ const Pricing = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Pricing
+export default Pricing;
